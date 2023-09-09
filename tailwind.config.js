@@ -10,7 +10,11 @@ module.exports = {
     fontFamily: {
       sans: ['Poppins', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#0194D4',
+      },
+    }
   },
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/aspect-ratio')],
 }

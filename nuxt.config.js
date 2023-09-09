@@ -1,8 +1,8 @@
 export default {
   head: {
-    title: 'NEFA',
+    title: 'softwaregestionale.ch',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'it',
     },
     meta: [
       { charset: 'utf-8' },
