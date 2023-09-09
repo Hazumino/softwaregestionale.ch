@@ -1,10 +1,8 @@
-# NEFA Landing Page
+# softwaregestionale.ch
 
-Free landing page template built using Nuxt 2 and Tailwindcss 3
+Built using Nuxt 2 and Tailwindcss 3
 
-> [LIVE DEMO](https://nefa.vercel.app/)
-
-![Thumbnail](assets/img/thumbnail.jpg)
+> [LIVE DEMO](http://real-nation.surge.sh) Not a production build.
 
 ## Project Structure
 
@@ -14,6 +12,7 @@ Free landing page template built using Nuxt 2 and Tailwindcss 3
 │ └── img  
 ├── components  
 │ └── base  
+│ └── landing  
 ├── layouts  
 ├── mixins  
 ├── pages  
@@ -44,10 +43,5 @@ $ yarn start
 $ yarn generate
 ```
 
-## Other version of NEFA
-- [React NEFA](https://github.com/hakimov-dev/nefa-react) by [Muhammadamin](https://github.com/hakimov-dev)
-
-Use it for learn, but please don’t republish, redistribute, or resell the template.
-
-Code by [rsurya99](https://github.com/rsurya99)  
-UI/UX by [irvanmoses](https://www.facebook.com/irvan.moses)
+Code by [alatella87](https://github.com/alatella87)  
+UI/UX by [alatella87](https://github.com/alatella87)  
