@@ -27,7 +27,7 @@
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           :class="{'rainbow': selected === 'ordini'}"
-          class="relative z-10 mb-10 overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
+          class="relative z-10 mb-10 h-full overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
         >
           <span class="mb-4 block text-lg font-semibold text-primary">
             Ordini
@@ -336,7 +336,7 @@
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           :class="{'rainbow': selected === 'contabilita'}"
-          class="relative z-10 mb-10 overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
+          class="relative z-10 mb-10 h-full overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
         >
           <span class="mb-4 block text-lg font-semibold text-primary">
             Contabilità
@@ -645,7 +645,7 @@
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           :class="{'rainbow': selected === 'salari'}"
-          class="relative z-10 mb-10 overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
+          class="relative z-10 mb-10 h-full overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
         >
           <span class="mb-4 block text-lg font-semibold text-primary">
             Salari
@@ -659,7 +659,7 @@
           >
             Perfect for using in a Business website or a client project.
           </p>
-          <div class="mb-7 text-left min-h-[300px]">
+          <div class="mb-7 text-center  text-left min-h-[300px]">
             <p class="mb-2 text-sm leading-loose text-body-color">
               Certificato Swissdec 4
             </p>
@@ -979,7 +979,6 @@ export default {
 .box-shadow-dpstudio {
   border-radius: 1rem;
   box-shadow: rgba(145, 145, 145, 0.25) 0px 5px 5px, rgba(164, 164, 164, 0.22) 0px 10px 10px;
-  padding: 6rem;
 }
 .rainbow {
   border: double 4px transparent;

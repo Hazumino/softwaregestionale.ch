@@ -4,29 +4,29 @@
     <!-- Hero section -->
     <section id="hero" class="w-full pb-24 pt-12">
       <BaseSection>
-        <div class="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
+        <div class="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6  sm:text-left">
         <div class="max-md:text-center max-sm:invisiblefi">
           <img :src="require('~/assets/img/logo/sl-logo-white.png')" class="w-[100px] xl:w-[150px]"
             alt="SoftwareGestionale Logo" />
-        </div>
           <h4 data-aos-once="true" data-aos-delay="300" class="hidden text-white sm:block">
             Fatturazione, contabilità, salari.
           </h4>
-          <h1 data-aos-once="true"
-            class="text-[2.5rem] text-white sm:text-4xl xl:text-5xl font-bold leading-tight sm:pr-8 xl:pr-10">
+          <h1 id="indexMainText" data-aos-once="true"
+            class="text-[2.5rem] mb-8 mt-8 text-white sm:text-4xl xl:text-5xl font-bold leading-tight sm:pr-8 xl:pr-10">
             Il software gestionale <br />
             per le PMI della svizzera italiana.
           </h1>
           <div data-aos-once="true" data-aos-delay="700"
             class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-2">
+          </div>
             <a href="#"
-              class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-sky-500 shadow-sm hover:bg-white-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white-600">prova
+              class="rounded-md  bg-white px-3.5 py-2.5 text-sm font-semibold text-sky-500 shadow-sm hover:bg-white-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white-600">prova
               gratuitamente</a>
           </div>
         </div>
-        <div class="hidden sm:block col-span-12 lg:col-span-6">
+        <div class="hidden lg:block col-span-12 lg:col-span-6">
           <div class="w-full">
-            <img data-aos-once="true" :src="require('~/assets/img/partner/cliente.png')" class="px-6 mt-4 max-w-[500px]"
+            <img data-aos-once="true" :src="require('~/assets/img/partner/cliente.png')" class="px-6  mt-4 max-w-[500px]"
               alt="" />
           </div>
         </div>
@@ -131,12 +131,12 @@
     <div class="w-full bg-primary text-center">
       <!-- Hero section -->
       <div class="text-center py-12">
-        <h4 class="text-white text-3xl font-black">
+        <h4 class="text-white text-3xl sm:text-4xl font-black">
           Mancanza di assistenza post vendita?
         </h4>
       </div>
       <div class="text-center">
-        <h5 class="text-white text-2xl pb-16">
+        <h5 class="text-white text-2xl sm:text-3xl pb-16">
           Non con noi! Il nostro team esperto e competente ti affiancherà <br /> costantemente durante l'implementazione e
           l'utilizzo di SelectLine.
         </h5>
@@ -283,4 +283,5 @@ export default {
   margin: auto;
   padding-top: 4rem;
 }
+
 </style>

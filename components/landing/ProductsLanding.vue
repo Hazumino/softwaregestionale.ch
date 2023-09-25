@@ -1,7 +1,7 @@
 <template>
   <dd>
     <div
-      class="bg-white py-8 sm:pt-28 sm:pb-8 text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl text-center">
+      class="bg-white px-8 py-8 sm:pt-28 sm:pb-8 text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl text-center">
       La tua azienda a portata di click
     </div>
     <div

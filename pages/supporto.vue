@@ -4,7 +4,7 @@
     <!-- Hero section -->
     <section id="hero" class="w-full pb-24 pt-12">
       <BaseSection>
-        <div class="col-span-12 lg:col-span-6 space-y-4 sm:space-y-6 px-6 text-center sm:text-left mt-auto">
+        <div class="col-span-12 lg:col-span-6 space-y-4 sm:space-y-6 px-6 sm:text-left mt-auto">
           <img :src="require('~/assets/img/logo/sl-logo-white.png')" class="w-[100px] xl:w-[150px]"
             alt="SoftwareGestionale Logo" />
           <h1 data-aos-once="true"
@@ -12,7 +12,7 @@
             SelectLine Supporto
           </h1>
         </div>
-        <div class="hidden sm:block col-span-12 lg:col-span-6">
+        <div class="hidden lg:block col-span-12 lg:col-span-6">
           <div class="w-full">
             <img data-aos-once="true" :src="require('~/assets/img/support.png')" class="mt-4 max-w-[500px]" alt="" />
           </div>
@@ -37,7 +37,7 @@
             <LandingListItem :content="text[1].content" />
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-6 space-y-6 px-2 sm:px-6 mt-20">
+        <div class="col-span-12 lg:col-span-6 space-y-6 px-2 sm:px-6 mt-20 text-center">
           <ul>
             <li class="marker">
               <img :src="require('~/assets/img/sup1.png')" class="w-[20px] mr-2 inline">

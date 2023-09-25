@@ -4,13 +4,13 @@
     <!-- Hero section -->
     <section id="hero" class="w-full pb-24 pt-12">
       <BaseSection>
-        <div class="col-span-12 lg:col-span-6 space-y-4 sm:space-y-6 px-6 text-center sm:text-left mt-auto">
+        <div class="col-span-12 lg:col-span-6 space-y-4 sm:space-y-6 px-6 sm:text-left mt-auto">
           <div class="w-full">
             <img data-aos-once="true" :src="require('~/assets/img/startup.png')" class="mt-4 max-w-[500px]" alt="" />
           </div>
           <div class="w-full">
             <img data-aos-once="true" :src="require('~/assets/img/partner/goodstart.png')"
-              class="filter-white -mt-5 max-w-[500px]" alt="" />
+              class="w-full sm:w-80 md:w-96 lg:w-4/5 xl:w-3/4 filter-white " alt="" />
           </div>
         </div>
         <div class="hidden sm:block col-span-12 lg:col-span-6">
