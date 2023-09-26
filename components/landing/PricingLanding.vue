@@ -4,7 +4,7 @@
 <section
   class="relative z-10 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
 >
-  <div class="container mx-auto">
+  <div class="container px-2 mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4">
         <div class="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">

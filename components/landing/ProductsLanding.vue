@@ -8,7 +8,7 @@
       class="bg-white py-2 font-semibold tracking-tight text-primary sm:text-lg text-center">
       scopri il catalogo >
     </div>
-    <div class="bg-white pt-24 pb-4 sm:pt-32">
+    <div class="bg-white pt-24 pb-4 sm:pt-32 px-2">
       <div class="mx-auto max-w-7xl px-6 lg:px-8 box-shadow-dpstudio">
         <dl class="flex flex-row justify-around">
           <div v-for="stat in stats" :key="stat.id" class="text-center w-24">

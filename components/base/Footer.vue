@@ -37,9 +37,9 @@
     <div class="py-8 sm:py-4 text-center text-sm text-white hover:text-gray-900">
       &copy; Made with love by Northsouth UX SAGL.
     </div>
-    <div id="footerFlex" class="bg-[#00B2FF] flex flex-row py-8 sm:py-4 text-left text-sm text-white hover:text-gray-900 items-center">
-      <img data-aos-once="true" :src="require('~/assets/img/logodp.png')" class="mt-4 mb-4 w-[200px] flexItem" alt="" />
-      <span class="flexItem font-bold ml-8 text-1xl">
+    <div id="footerFlex" class="bg-[#00B2FF] pr-4 flex flex-col sm:flex-row  py-8 sm:py-4 text-left text-sm text-white hover:text-gray-900 items-center">
+      <img data-aos-once="true" :src="require('~/assets/img/logodp.png')" class="mt-4 py-2 mb-4 w-[200px] flexItem" alt="" />
+      <span class="flexItem font-bold ml-8 text-1xl py-3">
         +41 81 839 00 00
       </span>
       <a href="mailto:support@dpstudio.ch"

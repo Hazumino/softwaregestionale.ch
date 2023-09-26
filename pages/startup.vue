@@ -2,7 +2,7 @@
 <template>
   <div class="w-full">
     <!-- Hero section -->
-    <section id="hero" class="w-full pb-24 pt-12">
+    <section id="hero" class="w-full px-3 pb-24 pt-12">
       <BaseSection>
         <div class="col-span-12 lg:col-span-6 space-y-4 sm:space-y-6 px-6 sm:text-left mt-auto">
           <div class="w-full">
@@ -26,7 +26,7 @@
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-5 md:m-auto">
           <div class="w-full sm:px-6 mt-6">
-            <img data-aos-once="true" :src="require('~/assets/img/speciale.png')" class="mt-4 mb-8 max-w-[400px]"
+            <img data-aos-once="true" :src="require('~/assets/img/speciale.png')" class="mt-4 mb-8 max-w-[350px] sm:w-80 md:w-96 lg:w-4/5 xl:w-3/4"
               alt="" />
             <h2 class="text-1xl font-semibold mb-4">
               {{ text[0].title }}
@@ -77,7 +77,7 @@
           Responsabile amministrazione SET Steril Expert Ticino
         </h5>
       </div>
-      <div class="text-center pb-16">
+      <div class="text-center px-2 pb-16">
         <img :src="require('~/assets/img/zucca.png')" class="w-[450px] m-auto -mt-2" alt="Ciente testimonial" />
       </div>
 

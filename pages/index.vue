@@ -136,7 +136,7 @@
         </h4>
       </div>
       <div class="text-center">
-        <h5 class="text-white text-2xl sm:text-3xl pb-16">
+        <h5 class="text-white px-2 text-2xl sm:text-3xl pb-16">
           Non con noi! Il nostro team esperto e competente ti affiancherà <br /> costantemente durante l'implementazione e
           l'utilizzo di SelectLine.
         </h5>

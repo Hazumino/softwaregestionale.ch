@@ -1,6 +1,6 @@
 <template>
   <dd>
-    <div class="bg-white py-2 sm:py-2">
+    <div class="bg-white px-2 py-2 sm:py-2">
       <div class="mx-auto max-w-7xl px-6 lg:px-8 box-shadow-dpstudio-small">
         <dl id="flexCombo" class="flex flex-row justify-around">
           <img :src="require('~/assets/img/partner/goodstart.png')" class="flexItem  h-[40px]"/>
