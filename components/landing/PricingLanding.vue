@@ -27,7 +27,7 @@
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           :class="{'rainbow': selected === 'ordini'}"
-          class="relative z-10 mb-10 h-full overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
+          class="relative z-10 mb-10 overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
         >
           <span class="mb-4 block text-lg font-semibold text-primary">
             Ordini
@@ -336,7 +336,7 @@
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           :class="{'rainbow': selected === 'contabilita'}"
-          class="relative z-10 mb-10 h-full overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
+          class="relative z-10 mb-10 overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
         >
           <span class="mb-4 block text-lg font-semibold text-primary">
             Contabilità
@@ -645,7 +645,7 @@
       <div class="w-full px-4 md:w-1/2 lg:w-1/3">
         <div
           :class="{'rainbow': selected === 'salari'}"
-          class="relative z-10 mb-10 h-full overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
+          class="relative z-10 mb-10 overflow-hidden rounded-xl border border-primary border-opacity-20 bg-white py-10 px-8 shadow-pricing sm:p-12 lg:py-10 lg:px-6 xl:p-12 hover-rainbow"
         >
           <span class="mb-4 block text-lg font-semibold text-primary">
             Salari
@@ -982,14 +982,12 @@ export default {
 }
 .rainbow {
   border: double 4px transparent;
-  margin: -3px;
   background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff, green, yellow, pink);
   background-origin: border-box;
   background-clip: padding-box, border-box;
 }
 .hover-rainbow:hover {
   border: double 4px transparent;
-  margin: -3px;
   background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff, green, yellow, pink);
   background-origin: border-box;
   background-clip: padding-box, border-box;
