@@ -5,8 +5,8 @@
     <div class="w-full border-y border-[#DDDDDD]">
       <div class="grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
         <div
-          class="md:w-full lg:w-full w-full sm:w-1/2 xl:w-fit flex flex-col sm:flex-row sm:px-6 py-6 sm:py-12 sm:space-x-10 sm:border-r-0 border-[#DDDDDD]">
-          <div class=" xl:block mb-6 sm:mb-0 p-4">
+          class="md:w-full lg:w-full w-full sm:w-fit xl:w-fit flex flex-col sm:flex-row sm:px-6 py-6 sm:py-12 sm:space-x-10 sm:border-r-0 border-[#DDDDDD]">
+          <div class=" xl:block mb-6 sm:mb-0 px-4">
             <img :src="require('~/assets/img/logo/logo.png')" class="w-[240px]" alt="dp Logo" />
             <div class="mt-4 text-md text-white">
               softwaregestionale.ch è un dominio di dpstudio.ch sviluppato al fine di promuovere la suite selectline.ch ed
@@ -16,7 +16,7 @@
           </div>
         </div>
         <div
-          class="md:w-full lg:w-full lg:border-r w-full sm:w-1/2 xl:w-fit sm:px-16 py-6 sm:py-12 ml-8 md:ml-0 lg:ml:0  xl:border-r border-[#DDDDDD]">
+          class="md:w-full lg:w-full lg:border-r w-full sm:w-1/2 xl:w-fit sm:px-6 py-6 sm:py-12 ml-8 md:ml-0 lg:ml:0  xl:border-r border-[#DDDDDD]">
           <ul class="space-y-4">
             <NavLink name="Ordini" url="/ordini" />
             <NavLink name="Contabilità" url="/contabilita" />
@@ -25,13 +25,14 @@
             <NavLink name="Supporto" url="/supporto" />
           </ul>
         </div>
+        <!--
         <div
           class="md:w-full md:border-t lg:w-full w-full sm:w-1/2 xl:w-fit sm:px-16 py-6 sm:py-12 border-t sm:border-t-0 sm:border-r-0 border-[#DDDDDD]">
         </div>
         <div
           class="md:w-full md:border-t lg:w-full sm:px-10 py-6 sm:py-12 w-full sm:w-1/2 xl:w-[22rem] space-y-4 sm:border-t border-[#DDDDDD]">
-
         </div>
+        <-->
       </div>
     </div>
     <div class="py-8 sm:py-4 text-center text-sm text-white hover:text-gray-900">
